@@ -7,6 +7,7 @@ public class Calculator
         System.out.println("addition:"+resultAdd);
         System.out.println("multiplication:"+resultMul);
         System.out.println("subtraction: "+subtract(10,5));
+        System.out.println("division: " + divide(15,3));
 
     }
     public static int add(int a, int b)
@@ -21,5 +22,8 @@ public class Calculator
     {
         return c-d;
     }
-
+    public static int divide(int c,int d)
+    {
+        return c/d;
+    }
 }
